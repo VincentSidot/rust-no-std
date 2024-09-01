@@ -1,0 +1,12 @@
+[workspace]
+members = [ "syscalls_macro",
+    "tst_std",
+    # Add more members here
+]
+resolver = "2"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
